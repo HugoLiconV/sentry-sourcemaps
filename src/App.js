@@ -17,6 +17,9 @@ function App() {
         >
           Learn React
         </a>
+        <button onClick={() => {
+          throw new Error("I'm Evil")
+        }}>Break the world</button>
       </header>
     </div>
   );
